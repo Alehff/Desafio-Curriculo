@@ -89,7 +89,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -490,11 +489,6 @@ progress {
   display: none !important;
 }
 
-.margem {
-    max-width: 200px;
-    height: auto;
-  }
-
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -584,8 +578,10 @@ progress {
 }
 
 .initialism {
-  font-size: 0.875em;
+  font-size: 0.6em;
   text-transform: uppercase;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
 }
 
 .blockquote {
@@ -608,12 +604,13 @@ progress {
 
 .img-fluid2 {
   max-width: auto;
-  height: 100px;
+  height: 200px;
 }
-
 .img-fluid {
   max-width: auto;
-  height: 150px;
+  height: 100px;
+  border-radius: 5px;
+  border-color: cadetblue;
 }
 
 .img-thumbnail {
@@ -2427,7 +2424,7 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M3 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
   background-size: 16px 12px;
@@ -7953,6 +7950,8 @@ textarea.form-control-lg {
 
 .rounded-circle {
   border-radius: 50% !important;
+  border: black;
+  border-width: 20px;
 }
 
 .rounded-pill {
@@ -11276,6 +11275,11 @@ textarea.form-control-lg {
     display: grid !important;
   }
 
+  .margem {
+    max-width: 50px;
+    height: 50px;
+  }
+
   .d-print-table {
     display: table !important;
   }
@@ -11367,6 +11371,7 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
@@ -11415,7 +11420,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 section.resume-section {
