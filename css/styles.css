@@ -606,6 +606,11 @@ progress {
   content: "— ";
 }
 
+.img-fluid2 {
+  max-width: auto;
+  height: 100px;
+}
+
 .img-fluid {
   max-width: auto;
   height: 150px;
