@@ -491,8 +491,8 @@ progress {
 }
 
 .margem {
-    max-width: 100px;
-    height: 100px;
+    max-width: 200px;
+    height: auto;
   }
 
 .lead {
